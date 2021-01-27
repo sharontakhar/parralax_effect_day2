@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Courier New", Courier, monospace;
+}
+
+header {
+  color: white;
+  min-height: 100vh;
+  background: linear-gradient(240deg, #834d4d, #503d3d);
+  position: relative;
+  z-index: -1;
+}
+
+.intro_text {
+  top: 50%;
+  left: 20%;
+  transform: translate(-20%, -50%);
+  position: absolute;
+}
+
+.intro_text h1 {
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+.intro_text h3 {
+  font-size: 35px;
+}
+
+.chair {
+  position: absolute;
+  top: 90%;
+  right: 10%;
+  transform: translate(-10%, -90%);
+  height: 700px;
+}
+
+.big-rose {
+  height: 200px;
+  position: absolute;
+  top: 10%;
+  right: 40%;
+}
+
+.small-rose {
+  height: 100px;
+  position: absolute;
+  top: 10%;
+  right: 30%;
+}
+
+section {
+  min-height: 100vh;
+  color: #834d4d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  background-color: lightslategray;
+}
